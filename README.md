@@ -23,12 +23,12 @@ This project analyzes Uber pickup data in New York City from January to June 201
 
 ## 4. Data Dictionary
 
-| Column Name     | Description                                      | Data Type | Example                 |
-| :-------------- | :----------------------------------------------- | :-------- | :---------------------- |
-| `Date/Time`    | Date and time of the pickup                     | datetime64[ns]  | 2015-01-01 00:00:00     |
-| `Lat`           | Latitude of the pickup location                | float64   | 40.721319              |
-| `Lon`           | Longitude of the pickup location               | float64   | -73.997135             |
-| `Base`           | TLC (Taxi and Limousine Commission) base code for Uber | object    | B02512                |
+| Column Name             | Description                                      | Data Type | Example                 |
+| :---------------------- | :----------------------------------------------- | :-------- | :---------------------- |
+| `dispatching_base_num`  | TLC (Taxi and Limousine Commission) base code for the dispatching base | object    | B02512                |
+| `pickup_date`           | Date and time of the pickup                     | datetime64[ns] | 2015-05-17 09:47:00     |
+| `affiliated_base_num`   | TLC base code for the affiliated base           | object    | B02764                |
+| `locationid`            | Location ID of the pickup                        | int64     | 141                     |
 
 ## 5. Tools and Libraries
 
