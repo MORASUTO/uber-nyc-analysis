@@ -32,7 +32,7 @@ This project analyzes Uber pickup data in New York City from January to June 201
 
 ## 5. Tools and Libraries
 
-*   Python 3.x
+*   Python 3.13.1
 *   Jupyter Notebook: Development environment.
 *   Pandas: Data manipulation and analysis library.
 *   NumPy: Numerical computing library.
