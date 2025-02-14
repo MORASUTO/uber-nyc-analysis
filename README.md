@@ -47,10 +47,10 @@ This project analyzes Uber pickup data in New York City from January to June 201
 *   `README.md`: This file (project description).
 *   `.venv/`: (Virtual environment directory - *not in the repository, only locally*).
 *   `data/`: Directory for storing data.
+    *   `.gitattributes`: File configuring Git LFS tracking.
     *   `uber-raw-data-janjune-15.csv`: Raw data file.
-*   `notebooks/`:
-    *   `01_data_loading_and_eda.ipynb`: Jupyter Notebook with data loading and initial exploratory data analysis.
-*   `src/`: (Directory for helper scripts - *if needed*)
+*   `.ipynb_checkpoints/`: (Jupyter Notebook checkpoints - *not in the repository, only locally*).
+*   `01_data_loading_and_eda.ipynb`: Jupyter Notebook with data loading and initial exploratory data analysis.
 
 ## 7. Results
 
